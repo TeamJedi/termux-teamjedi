@@ -92,3 +92,19 @@ Description: wget for IPFS: retrieve files over IPFS and save them locally.
 Homepage: http://ipfs.io
 Depends: ipfs
 
+Package: olsrd
+Architecture: all
+Installed-Size: 444
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 0.6.8
+Priority: optional
+Section: utils
+Filename: pool/main/o/olsrd/olsrd_0.6.8_all.deb
+Size: 139088
+SHA256: 3158fdfde637a3f5811e6f5016b850992c9f72b8ae743940069404f156dcde8f
+SHA1: 1ebd749f6e28a460d80d4e48267ad99591b5d654
+MD5sum: ffa8bb7590c9b0d7123b6011f2dfaf9f
+Description: An adhoc wireless mesh routing daemon
+Homepage: http://www.olsr.org/
+Depends: readline
+
