@@ -1,0 +1,94 @@
+Package: fs-repo-migrations
+Architecture: all
+Installed-Size: 5120
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 1.1.0
+Priority: optional
+Section: utils
+Filename: pool/main/f/fs-repo-migrations/fs-repo-migrations_1.1.0_all.deb
+Size: 1114452
+SHA256: 961171a5faeefeabbcfd1267c72122f08b842503971716f2f106e5c44d0d70a8
+SHA1: 3fcce42078758ac7d6dade972bda851c1e4c30e9
+MD5sum: 6e38f2d88bd117263dff1a56bc413504
+Description: fs-repo-migrations is a tool for migrating IPFS storage repositories to newer versions.
+Homepage: http://ipfs.io
+Depends: ipfs
+
+Package: gx
+Architecture: all
+Installed-Size: 5104
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 0.9.0
+Priority: optional
+Section: utils
+Filename: pool/main/g/gx/gx_0.9.0_all.deb
+Size: 1328004
+SHA256: 5d3719ab7928639869e8d429b5fda6eca526f89f733591928e6f1a08351b1e53
+SHA1: 02816686e77f5081dff58eb19b2c726e7b19daf4
+MD5sum: 14b932335d899335f17f446ee24bd8bc
+Description: gx packaging built on ipfs
+Homepage: http://ipfs.io
+Depends: ipfs
+
+Package: gx-go
+Architecture: all
+Installed-Size: 5520
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 1.3.0
+Priority: optional
+Section: utils
+Filename: pool/main/g/gx-go/gx-go_1.3.0_all.deb
+Size: 1432332
+SHA256: 737f8819d128dace108c53b2b3aa692b32863d65654aff06429eb53ceb68f492
+SHA1: b50eb81d31065bf141bf82837944dd3b75c2f6b9
+MD5sum: 6ba4ac65711424128f7d377bc0af95e0
+Description: gx-go is a gx helper for golang
+Homepage: http://ipfs.io
+Depends: ipfs, gx, golang
+
+Package: ipfs
+Architecture: all
+Installed-Size: 12844
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 0.4.3
+Priority: optional
+Section: utils
+Filename: pool/main/i/ipfs/ipfs_0.4.3_all.deb
+Size: 3156252
+SHA256: b34d89ff5f2b0c546082c649a0dee9fbb0f3e6afe0cb3837eab99f88080c7c12
+SHA1: 4f1476768d3612257d998f48d51294bcad4bfeac
+MD5sum: 2d1f19631b1f43636f48da273c409304
+Description: Inter-Planetary File System
+Homepage: http://ipfs.io
+
+Package: ipfs-update
+Architecture: all
+Installed-Size: 5232
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 1.3.0
+Priority: optional
+Section: utils
+Filename: pool/main/i/ipfs-update/ipfs-update_1.3.0_all.deb
+Size: 1270072
+SHA256: a19054b3eee48d90fa5d33c0241b6b58dcff95969f26976d7ba557dc1679cc34
+SHA1: d53662eecdcb6d1f23e8f884d6150e078616bbdc
+MD5sum: f97c60a912ffbeb2e80cbf7942a5508b
+Description: ipfs-update is a CLI tool to help update and install IPFS easily.
+Homepage: http://ipfs.io
+
+Package: ipget
+Architecture: all
+Installed-Size: 9220
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Version: 0.0.1
+Priority: optional
+Section: utils
+Filename: pool/main/i/ipget/ipget_0.0.1_all.deb
+Size: 2027416
+SHA256: 88998c2d7ae458777e38bf269125b8e6a469adb1000ce6ed246447238f326a50
+SHA1: 5d3f458d07c8dfbc87d05aa184021df0841b0433
+MD5sum: ed4141911f5ef49eee7ebd6d1f02ddb4
+Description: wget for IPFS: retrieve files over IPFS and save them locally.
+Homepage: http://ipfs.io
+Depends: ipfs
+

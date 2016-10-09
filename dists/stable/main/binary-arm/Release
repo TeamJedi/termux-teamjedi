@@ -1,0 +1,5 @@
+Component: main
+Origin: raw.github.com
+Label: apt repository
+Architecture: arm
+Description: TeamJedi packages

@@ -1,0 +1,8 @@
+Origin: raw.github.com
+Label: apt repository
+Codename: stable
+Architectures: aarch64 arm
+Components: main
+Description: TeamJedi packages
+SignWith: gpg
+Pull: stable

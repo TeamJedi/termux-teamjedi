@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: raw.github.com
+Label: apt repository
+Codename: stable
+Date: Sun, 09 Oct 2016 01:19:37 UTC
+Architectures: aarch64 arm
+Components: main
+Description: TeamJedi packages
+MD5Sum:
+ fe539f3dab42c1045e07762e9dc0fb86 2920 main/binary-aarch64/Packages
+ 56cbcc4219f9bbb3b1bdfa36ffadeaf3 1150 main/binary-aarch64/Packages.gz
+ da92cb7e29c3ff95358140d65d42f6c3 114 main/binary-aarch64/Release
+ fe539f3dab42c1045e07762e9dc0fb86 2920 main/binary-arm/Packages
+ 56cbcc4219f9bbb3b1bdfa36ffadeaf3 1150 main/binary-arm/Packages.gz
+ c1a4ca78366a28ae84d357d356343a98 110 main/binary-arm/Release
+SHA1:
+ 6b3006fbac7edba16ad2b8b03712252c9afae835 2920 main/binary-aarch64/Packages
+ 89a941198fd894c2caab0c0f6c9b9561b2141f6a 1150 main/binary-aarch64/Packages.gz
+ 4b626eee46a569ec02593c9bab75945a334078ef 114 main/binary-aarch64/Release
+ 6b3006fbac7edba16ad2b8b03712252c9afae835 2920 main/binary-arm/Packages
+ 89a941198fd894c2caab0c0f6c9b9561b2141f6a 1150 main/binary-arm/Packages.gz
+ 1598838448f135081324f4af69de2547af06953b 110 main/binary-arm/Release
+SHA256:
+ b3cb4cbda7f990abb02841195fed30ed5728a4f3fa1caebe016e030e430e1efc 2920 main/binary-aarch64/Packages
+ dcf46f672cc457ba9a4dd61e1cfe34017f5fa6c93ced4ec8c55450ec47547612 1150 main/binary-aarch64/Packages.gz
+ b2a2fcf29adb381ae0ea6114d407bf951516f844661850955656b2fe4674857c 114 main/binary-aarch64/Release
+ b3cb4cbda7f990abb02841195fed30ed5728a4f3fa1caebe016e030e430e1efc 2920 main/binary-arm/Packages
+ dcf46f672cc457ba9a4dd61e1cfe34017f5fa6c93ced4ec8c55450ec47547612 1150 main/binary-arm/Packages.gz
+ 6ae7122a18ac54632a3d3ab1e59de9bcd2298bfe1c7ba2d9dfa7c2fb7f228cca 110 main/binary-arm/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQEcBAEBAgAGBQJX+ZspAAoJECYzdptzMibpXwoH/0+RmLLOvEXUF3cPxJ6x7X6Z
+WG84NNfDUkxQ6djvdKi0h53ZY/KBR69jW8HBp99Hq47PLVhXuS//BjVqqSHzsmd5
+cTegmpZU7N+Y601SIv3fhAZUsLmUfSssB7A6PRjFRuSNOKOsllOWoNN8uxP2J98H
+sjKoyP32UDoUO6t+E+fH02o3hGQs6fw3bSwzrA4uzas/JfaFhEhA4HDML6hjlbor
+G76BX47xYg3kUtZo1htfRFBzoM9rXYA0/ChU7HHyHnEBRJ7vsBGQDVgNiGSc/aPv
+9hg285Dptgr8pFTUJCxBYqYiKygFD1Ic4Kj2NJQ3dLGi9wQ0YeqFvW0DfCe5SRc=
+=tudo
+-----END PGP SIGNATURE-----
