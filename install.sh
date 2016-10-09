@@ -2,6 +2,9 @@
 
 termux-setup-storage
 
+apt update
+apt-get install apt-transport-https gnupg2
+
 if ! grep teamjedi /data/data/com.termux/files/usr/etc/apt/sources.list ; then
   echo 'deb [arch=all,arm] https://teamjedi.github.io/termux-teamjedi stable main' >> /data/data/com.termux/files/usr/etc/apt/sources.list
 fi
