@@ -6,10 +6,3 @@ all:
 clean:
 	rm -fr db/ pool/ dists/
 
-deleteme:
-	docker run -e URI=https://teamjedi.github.io/termux-teamjedi \
-             	-e KEYSERVER=keyserver.ubuntu.com \
-		-e APTLY_ARCHITECTURES=arm \
-             	-v gnupg:/.gnupg \
-             	-v debs:/debs \
-             	spotify/debify
