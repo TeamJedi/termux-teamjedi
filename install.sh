@@ -3,8 +3,14 @@
 termux-setup-storage
 
 if ! grep teamjedi /data/data/com.termux/files/usr/etc/apt/sources.list ; then
-  echo 'deb [arch=all,arm] http://teamjedi.github.io/termux-teamjedi stable main' >> /data/data/com.termux/files/usr/etc/apt/sources.list
+  echo 'deb [arch=all,arm] https://teamjedi.github.io/termux-teamjedi stable main' >> /data/data/com.termux/files/usr/etc/apt/sources.list
 fi
+
+if [ ! -f apt-key.gpg ] ; then
+  wget https://teamjedi.github.io/termux-teamjedi/apt-key.gpg
+fi
+
+apt-key add < apt-key.gpg
 
 apt update
 apt install -y ospfd fs-repo-migrations gx-go gx ipfs-update ipfs ipget
