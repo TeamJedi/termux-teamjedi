@@ -16,5 +16,5 @@ fi
 apt-key add < apt-key.gpg
 
 apt update
-apt install -y ospfd fs-repo-migrations gx-go gx ipfs-update ipfs ipget
+apt install -y olsrd fs-repo-migrations gx-go gx ipfs-update ipfs ipget
 
